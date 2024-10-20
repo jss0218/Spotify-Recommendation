@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+  "name": "Spotify Song Recommender",
+  "version": "1.0",
+  "description": "Recommends songs based on the currently playing Spotify track.",
+  "permissions": ["identity", "https://api.spotify.com/"],
+  "background": {
+    "scripts": ["popup/background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_popup": "popup/popup.html",
+    "default_icon": "popup/icon.png"
+  },
+  "icons": {
+    "16": "popup/icon.png",
+    "48": "popup/icon.png",
+    "128": "popup/icon.png"
+  },
+  "oauth2": {
+    "client_id": "f8b71bcfcdd44402816476f864fb1926",
+    "scopes": ["user-read-currently-playing", "playlist-modify-public"]
+  }
+}

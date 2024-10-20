@@ -14,15 +14,15 @@ List the primary contributions of each author. It is recommended to update this 
 
 ### [Author 1 - Jasraj Sidhu]
 
-* Developed test cases for WordValidator class and GameState class
-* Implemented methods and logic to pass test cases that were originally failing
-* Debugged any errors that occurred during entire TDD process
+* Contribution 1
+* Contribution 2
+* Contribution 3
 
 ### [Author 2 - Yafet Getachew]
 
-* Wrote test cases for Dictionary Test and Game Test
-* Assisted in writing of submitGuess()0 - wrote a few lines to pass the invalid word test; as well as writing a few lines for guessLetterResults()
-* Handled a lot of the git branches we created in terms of creating, merging, pushing, upstreaming, etc.
+* Contribution 1
+* Contribution 2
+* Contribution 3
 
 ## Issues
 
